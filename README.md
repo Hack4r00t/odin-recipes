@@ -18,3 +18,4 @@ The website will consist of a main webpage which will have links to few recipes
 - adding necessary meta-data (charset, HTML version)
 - using basic html tags (anchors, images, headers)
 - using git and GitHub
+- learning how to write good commits messages
