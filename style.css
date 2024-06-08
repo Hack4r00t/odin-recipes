@@ -2,12 +2,9 @@ h1,
 h2,
 h3 {
     font-family: "Courier New";
-    text-decoration: underline;
-}
-
-h1 {
     text-align: center;
     font-weight: bold;
+    text-decoration: underline;
 }
 
 p {
@@ -20,4 +17,20 @@ p {
 /*Make images rounded*/
 img {
     border-radius: 1000px;
+}
+
+div#recipes-container {
+    text-align: center;
+}
+
+li.recipe-item {
+    display: inline-block;
+    margin-right: 100px;
+    text-align: center;
+}
+
+li.recipe-item a {
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: inline-block;
 }
