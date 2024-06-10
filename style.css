@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 h1,
 h2,
 h3 {
@@ -5,13 +11,14 @@ h3 {
     text-align: center;
     font-weight: bold;
     text-decoration: underline;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 p {
-    border: 1px solid grey;
     padding: 5px;
-    margin-left: 150px;
-    margin-right: 150px;
+    width: 70%;
+    margin: auto;
 }
 
 /*Make images rounded*/
@@ -19,18 +26,19 @@ img {
     border-radius: 1000px;
 }
 
-div#recipes-container {
+div.recipes-container {
     text-align: center;
+    width: 80%;
+    margin: auto;
 }
 
 li.recipe-item {
     display: inline-block;
-    margin-right: 100px;
     text-align: center;
+    margin: 10px 20px;
 }
 
 li.recipe-item a {
     font-size: 20px;
-    margin-bottom: 10px;
     display: inline-block;
 }
