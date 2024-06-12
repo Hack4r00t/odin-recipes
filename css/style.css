@@ -13,26 +13,28 @@ html {
     padding: 0;
 }
 
+body {
+    background-color: pink;
+}
+
 h1,
 h2,
 h3 {
     font-family: "Courier New";
-    text-align: center;
     font-weight: bold;
     text-decoration: underline;
-    margin-bottom: 30px;
-    margin-top: 30px;
+    margin: 20px auto;
+    width: fit-content;
 }
 
 p {
-    padding: 5px;
-    width: 70%;
-    margin: auto;
+    margin: 0 auto;
+    margin-bottom: 10px;
 }
 
 /*Make images rounded*/
 img {
-    border-radius: 1000px;
+    border-radius: 150px;
 }
 
 div.recipes-container {
@@ -43,11 +45,36 @@ div.recipes-container {
 
 li.recipe-item {
     display: inline-block;
+    text-decoration: none;
     text-align: center;
     margin: 10px 20px;
 }
 
 li.recipe-item a {
-    font-size: 20px;
+    display: block;
+    width: 100px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    margin: 0px auto;
+    padding: 10px 12px;
+}
+
+li.recipe-item img {
     display: inline-block;
+    margin: 20px 0;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.page-container {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 20px 30px;
+    border: 2px solid white;
+    border-radius: 10px;
 }
