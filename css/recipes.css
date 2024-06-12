@@ -15,7 +15,7 @@ html {
 
 body {
     margin: 0 auto;
-    background-color: pink;
+    background-color: rgb(255, 88, 116);
 }
 
 h1,
@@ -35,7 +35,8 @@ div.img-container {
 img {
     display: inline-block;
     margin-bottom: 20px;
-    border-radius: 500px;
+    border-radius: 10px;
+    border: 2px solid white;
 }
 
 p {
@@ -72,4 +73,5 @@ a.internal-link {
     padding: 20px 30px;
     border: 2px solid white;
     border-radius: 10px;
+    background-color: rgb(255, 132, 152);
 }

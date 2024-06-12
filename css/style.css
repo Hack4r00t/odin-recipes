@@ -14,7 +14,7 @@ html {
 }
 
 body {
-    background-color: pink;
+    background-color: rgb(255, 88, 116);
 }
 
 h1,
@@ -77,4 +77,5 @@ li.recipe-item img {
     padding: 20px 30px;
     border: 2px solid white;
     border-radius: 10px;
+    background-color: rgb(255, 132, 152);
 }
